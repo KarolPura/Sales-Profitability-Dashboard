@@ -52,27 +52,22 @@ Dashboard zawiera:
 - sparklines,
 - analiza trendów sprzedażowych.
 
-## Model danych
-
-Raport oparty jest na modelu danych zawierającym informacje o:
-
-- zamówieniach,
-- produktach,
-- klientach,
-- lokalizacjach,
-- kalendarzu.
-
-Model umożliwia analizę wyników sprzedażowych w różnych przekrojach biznesowych.
-
 ## Podgląd dashboardu
 
-![Dashboard sprzedaży i marży](dashboard-sprzedaz-marza.png)
+### Widok główny
+
+![Dashboard sprzedaży i marży](screenshot/dashboard-sprzedaz-marza.png)
+
+### Widok z wybranymi podkategoriami
+
+![Dashboard sprzedaży i marży - wybrane podkategorie](screenshot/dashboard-sprzedaz-marza-wybrane-podkategorie.png)
 
 ## Pliki w repozytorium
 
 - `Sales & Profitability Dashboard.pbix` – plik raportu Power BI
-- `Data.xlsx` – dane źródłowe
-- `dashboard-sprzedaz-marza.png` – zrzut ekranu dashboardu
+- `Data/Data.xlsx` – dane źródłowe
+- `screenshot/dashboard-sprzedaz-marza.png` – główny widok dashboardu
+- `screenshot/dashboard-sprzedaz-marza-wybrane-podkategorie.png` – dashboard z zastosowanymi filtrami
 - `README.md` – opis projektu
 
 ## Wnioski biznesowe
